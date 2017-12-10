@@ -1,5 +1,7 @@
 # Add  code here!
 def prime?(number)
+if number < 0
+  number = number *-1
 i=2
 while i < number do
   if number % i == 0
