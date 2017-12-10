@@ -1,5 +1,5 @@
 # Add  code here!
-def prime(number)
+def prime?(number)
 i=2
 while i < number do
   if number % i == 0
