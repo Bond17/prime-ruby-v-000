@@ -6,6 +6,9 @@ end
 if number == 1
   return false
 end
+if number == 0
+  return false
+end
 i=2
 while i < number do
   if number % i == 0
