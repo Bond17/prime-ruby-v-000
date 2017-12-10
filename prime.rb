@@ -4,7 +4,7 @@ if number < 0
   number = number *-1
 end
 if number = 1
-return false
+  return false
 end
 i=2
 while i < number do
